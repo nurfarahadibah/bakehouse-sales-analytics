@@ -63,7 +63,7 @@ The entire automated ETL/ELT data lifecycle is managed by a production-ready **S
 The final modeled business layer plugs directly into an automated workspace reporting suite, compiling the data into 5 high-performance gold datasets (`sales_metrics`, `top_products`, `top_franchises`, `payment_method_breakdown`, `quarterly_performance`).
 
 > [!NOTE]
-> 📊 **[Open & Download the Dashboard PDF Report](./documents/Bakehouse_Sales_Analytics.pdf)**
+> 📊 **[Open & Download the Dashboard PDF Report](./documents/Bakehouse%20Sales%20Analytics.pdf)**
 > 
 > *Click the link above to open dashboard interfaces in pdf.*
 
@@ -87,7 +87,7 @@ The final modeled business layer plugs directly into an automated workspace repo
 │   ├── 02_silver_layer.sql
 │   └── 03_gold_layer.sql
 ├── documents/
-│   └── Bakehouse_Sales_Analytics.pdf
+│   └── Bakehouse Sales Analytics.pdf
 ├── images/
 │   ├── pipeline_dag.png
 │   └── workspace_structure.png
