@@ -53,7 +53,9 @@ The entire automated ETL/ELT data lifecycle is managed by a production-ready **S
 * **Modularity:** Isolation of business logic scripts hosted in the project's `/transformations` directory.
 * **Data Lineage:** Automatically maps and executes the system dependency graph (DAG) sequentially from source tables directly to the downstream dimensional golden tables.
 
-![Pipeline DAG](./images/pipeline_dag.png)
+
+> **Pipeline DAG Visual Mapping**
+> ![Pipeline DAG](./images/pipeline_dag.png)
 
 ---
 
@@ -61,7 +63,9 @@ The entire automated ETL/ELT data lifecycle is managed by a production-ready **S
 The final modeled business layer plugs directly into an automated workspace reporting suite, compiling the data into 5 high-performance gold datasets (`sales_metrics`, `top_products`, `top_franchises`, `payment_method_breakdown`, `quarterly_performance`).
 
 > [!NOTE]
-> 📊 **[Open & Download the Full Executive PDF Report](./documents/Bakehouse_Sales_Analytics_Dashboard.pdf)** > *Click the link above to open and read the high-resolution vector PDF layout natively using GitHub's built-in scrollable document reader.*
+> 📊 **[Open & Download the Dashboard PDF Report](./documents/Bakehouse_Sales_Analytics_Dashboard.pdf)**
+> 
+> *Click the link above to open dashboard interfaces in pdf.*
 
 ### Executive Performance Metrics Covered:
 * **Financial Health:** Total Revenue (\$66.47K), Average Order Value (AOV: \$19.94)
